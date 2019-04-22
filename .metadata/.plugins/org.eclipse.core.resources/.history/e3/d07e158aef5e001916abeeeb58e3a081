@@ -1,0 +1,5 @@
+package com.xwycloud11.springcloud.helloworld.feign.client.Service;
+
+public class IDeptClientService {
+
+}

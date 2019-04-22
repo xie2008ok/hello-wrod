@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Springcloud
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ace
+Implementation-Vendor-Id: com.xwycloud
+Build-Jdk: 1.8.0_112
+Implementation-URL: http://projects.spring.io/spring-boot/Springcloud/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

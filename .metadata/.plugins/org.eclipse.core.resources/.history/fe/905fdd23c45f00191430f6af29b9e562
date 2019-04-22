@@ -1,0 +1,5 @@
+package com.xwycloud11.cloudZuul.filter;
+
+public class DemoFilter {
+
+}

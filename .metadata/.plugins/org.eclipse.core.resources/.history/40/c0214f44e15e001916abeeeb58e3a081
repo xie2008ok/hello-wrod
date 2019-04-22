@@ -1,0 +1,20 @@
+package com.xwycloud11.springcloud.helloworld.feign.client.controller;
+
+import javax.inject.Scope;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import feign.Feign;
+
+@Configuration
+public class SybnHystrixFeignConfiguration {
+   
+
+    @Bean
+    @Scope("prototype")
+    public Feign.Builder feignHystrixBuilder() {
+        return Feign.builder();
+    }
+
+}

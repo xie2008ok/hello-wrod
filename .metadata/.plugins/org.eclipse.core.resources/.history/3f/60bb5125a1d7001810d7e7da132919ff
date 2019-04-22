@@ -1,0 +1,51 @@
+package com.xwy.test;
+
+public class test001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int arr[] = new int[]{1, 3, 5, 7, 9, 2, 4, 6, 8, 0,10};
+	        for (int i = 0; i < arr.length; i++) {
+	            for (int j = 0; j < arr.length - i - 1; j++) {
+	                if (arr[j] < arr[j + 1]) {
+	                    int t = arr[j];
+	                    arr[j] = arr[j + 1];
+	                    arr[j + 1] = t;
+	                }
+	            }
+	            for (int i1 = 0; i1 < arr.length; i1++)
+	            	System.out.print(arr[i1] + "\t");
+	            System.out.println();
+	        }
+	        for (int i = 0; i < arr.length; i++)
+	            System.out.print(arr[i] + "\t");
+	        System.out.println();
+	   
+	        int i=13;
+	        char a ='A',b='B',c='C';
+	        hanio(i,a,b,c);
+	    }
+	    public static void hanio(int n,char a,char b,char c){
+	        if(n==1)
+	            System.out.println("移动"+n+"号盘子从"+a+"到"+c);
+	        else{
+	            hanio(n-1,a,c,b);//把上面n-1个盘子从a借助b搬到c
+	            System.out.println("移动"+n+"号盘子从"+a+"到"+c);//紧接着直接把n搬动c
+	            hanio(n-1,b,a,c);//再把b上的n-1个盘子借助a搬到c
+	        }
+	        int i=0;
+	        switch (i){
+	        case 1:
+	        	break;
+	        	
+	        	default :
+	        	break;
+	        }
+	        
+	        
+	        while(true){
+	        	
+	        }
+	    }     
+	    
+}

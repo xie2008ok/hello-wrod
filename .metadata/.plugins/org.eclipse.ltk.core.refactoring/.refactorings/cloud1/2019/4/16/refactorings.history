@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EurekaClientApplication.java&apos; to &apos;wrod1/src/main/java/com.xwycloud11.wrod1&apos;&#x0D;&#x0A;- Original project: &apos;cloud1&apos;&#x0D;&#x0A;- Destination element: &apos;wrod1/src/main/java/com.xwycloud11.wrod1&apos;&#x0D;&#x0A;- Original element: &apos;com.xwycloud1.cloud1.EurekaClientApplication.java&apos;" description="Copy compilation unit" destination="=wrod1/src\/main\/java&lt;com.xwycloud11.wrod1" element1="/src\/main\/java&lt;com.xwycloud1.cloud1{EurekaClientApplication.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555254511407" units="1" version="1.0"/>
+</session>

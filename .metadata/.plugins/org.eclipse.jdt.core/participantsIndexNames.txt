@@ -1,0 +1,15 @@
+INDEX VERSION 1.129
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\67827915.index
+\test Maven Webapp\src\main\java
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3856059007.index
+\test Maven Webapp\src\main\resources
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2936047566.index
+\test002\src
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3095106445.index
+\test003\src
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3538138640.index
+\springMvc\src
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2525870859.index
+\test001\src
+E:\workspace-2011\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1759374007.index
+\springMvc\src

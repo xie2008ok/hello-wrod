@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\workspace-2011\cloudTurbine"/>
+			<item value="E:\workspace-2011\springcloud.helloworld.feign.client"/>
+			<item value="E:\workspace-2011\ribbon"/>
+			<item value="E:\workspace-2011\wrod1"/>
+			<item value="E:\workspace-2011\client1\src\main\java\com\xwycloud11\client1\ConfigClientApplication.java"/>
+			<item value="E:\workspace-2011\cloudconfig\src\main\resources\application.yml"/>
+			<item value="E:\workspace-2011\Springcloud"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.xwycloud11.cloudZuul"/>
+			<item value="com.xwycloud11.cloudTurbine"/>
+			<item value="com.xwycloud11.springcloud.helloworld.feign.client"/>
+			<item value="com.xwycloud11.ribbon"/>
+			<item value="com.xwycloud11.wrod1"/>
+			<item value="com.xwycloud11.client1"/>
+			<item value="com.xwycloud11.cloudconfig"/>
+			<item value="com.xwycloud1.cloud1"/>
+			<item value="com.xwycloud.Springcloud"/>
+			<item value="com.xwy.springbootdome"/>
+		</list>
+		<list key="groupId">
+			<item value="com.xwycloud11"/>
+			<item value="com.xwycloud1"/>
+			<item value="com.xwycloud"/>
+			<item value="com.xwy"/>
+		</list>
+		<list key="artifactId">
+			<item value="cloudZuul"/>
+			<item value="cloudTurbine"/>
+			<item value="springcloud.helloworld.feign.client"/>
+			<item value="ribbon"/>
+			<item value="wrod1"/>
+			<item value="client1"/>
+			<item value="cloudconfig"/>
+			<item value="cloud1"/>
+			<item value="Springcloud"/>
+			<item value="springbootdome"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

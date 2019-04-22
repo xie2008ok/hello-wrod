@@ -1,0 +1,54 @@
+package com.clou.app;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.struts2.ServletActionContext;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class teatoneAction extends ActionSupport {
+	private String message;
+	
+	
+	
+	 public String getMessage() {
+		return message;
+	}
+
+
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+
+
+	public String execute() throws Exception{
+		setMessage("Hellow word");
+		 System.out.println("Hellow word");
+		 for(int i=0;i<7;i++){
+			 System.out.print(i);
+		 }
+		 
+		 organizParams();
+		return "secces";
+		 
+	 }
+	
+	
+	
+	public static HashMap organizParams(){
+		HashMap parames = new HashMap();	
+		Map<String, String[]> map = ServletActionContext.getRequest().getParameterMap();
+		Object value;
+		for (Object key : map.keySet()) {
+			value = ServletActionContext.getRequest().getParameter(key.toString());
+			if (value != null) {
+				value = ((String)value).trim().replace("\'", "").replace("&", "");
+			}
+			parames.put(key, value);
+		}
+		return parames;
+	}
+}
